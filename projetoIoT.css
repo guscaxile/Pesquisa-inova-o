@@ -4,6 +4,8 @@ body{
     border: 0;
 }
 
+/*CABEÇALHO*/
+
 .cabecalho{
     background: rgb(37, 37, 37);
     width: 100%;
@@ -42,4 +44,114 @@ ul li{
 
 .home{
     color: red;
+}
+
+/*INFERIOR*/
+
+.inferior{
+    position: absolute;
+    background: rgb(37, 37, 37);
+    width: 100%;
+    height: 60px;
+}
+
+.inferior h3{
+    color: white;
+}
+
+.inferior nav{
+    float: right;
+    margin: -4%;
+}
+
+button {
+    background-color: orangered;
+    height: 30px;
+    width: 70px;
+    border: orangered;
+    border-radius: 5%;
+}
+
+.caixa2{
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;   
+}
+
+.caixa3{
+    margin: 15px;
+    display: inline;
+}
+
+.input{
+    height: 23px;
+    border-radius: 5%;
+}
+
+/*MEIO*/
+
+.apresentacao{
+    background-image: url(team.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 649px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.apresentacao h1{
+    color: rgb(231, 62, 0);
+}
+
+.apresentacao h4{
+    color: papayawhip;
+}
+
+/*FIM*/
+
+.fim {
+    position: absolute;
+    width: 100%;
+    bottom: -600px;
+    display: flex;
+    background-position: center;
+    text-align: center;
+}
+
+.missao{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 55%;
+    margin: 50px;
+}
+
+
+
+.valores{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    width: 200px;
+    float: 150px;
+    float: left;
+    margin: 50px;
+    margin-left: 22%;
+}
+
+.visao{
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    width: 200px;
+    float: 150px;
+    float: right;
+    margin: 50px;
+    margin-left: 15%;
 }
